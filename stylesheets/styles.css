@@ -1,0 +1,29 @@
+.picture-section {
+    position: absolute;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.profile-section{
+    position: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edit {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    width: 75%;
+    height: 300px;
+    border: 3px solid lightskyblue;
+    border-radius: 25px;
+}
