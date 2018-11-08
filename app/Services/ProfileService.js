@@ -6,11 +6,11 @@ function ProfileService($location) {
         name: "Waldo",
         contact: "Waldo@search.net",
         bio: "My friends say I tend to blend into crowds, but that doesn't mean I am not an interesting guy."
-    }
+    };
 
     self.getUserProfile = () => {
         console.log(self.userProfile);
-        return self.userProfile;
+        return self.userProfile;  //when getUserProfile() is called, the caller will recieve the returned information
     }
 
     self.setUserProfile = (newInfo) => {

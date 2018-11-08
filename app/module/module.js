@@ -10,5 +10,5 @@ angular
       // when the user navigates to the comp-one route(see index.html), load the compOne component in ngView
       .when("/edit-profile", {
         template: "<edit-profile></edit-profile>"})
-        .otherwise({redirectTo:"/user-profile"})
+      .otherwise({redirectTo:"/user-profile"})
   }])
